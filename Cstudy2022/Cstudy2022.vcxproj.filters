@@ -24,5 +24,14 @@
     <ClCompile Include="oj1037.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oj1075.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oj1097.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="함수연습.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
