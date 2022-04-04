@@ -18,5 +18,8 @@
     <ClCompile Include="oj1035.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oj1036.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
