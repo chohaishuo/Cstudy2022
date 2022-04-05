@@ -36,5 +36,8 @@
     <ClCompile Include="oj1403.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oj1403함수이용.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
