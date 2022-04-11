@@ -42,5 +42,20 @@
     <ClCompile Include="oj1500.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oj1420.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="배열연습.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터연습.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터연습2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터연습3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
