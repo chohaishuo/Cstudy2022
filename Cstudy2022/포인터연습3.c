@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 int main() {
-	int a = 0x01020304;
+	int* p;
+	int c[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	p = &c;
 
-	char* pc;
+	*(p + 4) = 10;
 
-	pc = &a;
-	printf("%x", *(pc + 1));
+	printf("%d", c[4]);
 
 	return 0;
 }
