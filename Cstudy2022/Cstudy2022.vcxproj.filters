@@ -66,5 +66,8 @@
     <ClCompile Include="c시험2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c시험3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
