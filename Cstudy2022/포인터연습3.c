@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#define PI 3.14
+
 
 int main() {
 	//int a = 10, b = 20, temp;
@@ -9,6 +11,7 @@ int main() {
 	//printf("%d %d", a, b);
 
 	int* p; 
+
 
 	int c[5] = { 1,2,3,4,5 }; 
 	int i, temp = 0;
