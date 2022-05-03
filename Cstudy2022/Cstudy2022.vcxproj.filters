@@ -81,5 +81,8 @@
     <ClCompile Include="1578.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c언어4번문제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
