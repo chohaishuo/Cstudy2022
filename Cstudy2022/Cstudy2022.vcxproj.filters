@@ -69,5 +69,17 @@
     <ClCompile Include="c시험3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c시험7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oj1575.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1577.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1578.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

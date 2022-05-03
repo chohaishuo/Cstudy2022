@@ -15,14 +15,14 @@ int main()
 
 	char* pa;
 	char* pb;
-	pa = a;
-	pb = b;
+	pa = (char*)a;
+	pb = (char*)b;
 
-	pb = pa;
+	*pb = *pa;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 40; i++)
 	{
-		*pb++ = *pa++;
+		*(pb++) = *(pa++);
 	}
 
 
