@@ -90,5 +90,8 @@
     <ClCompile Include="포인터 배열.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="const.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
