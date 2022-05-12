@@ -96,5 +96,8 @@
     <ClCompile Include="포인터배열예제.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2차원배열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
