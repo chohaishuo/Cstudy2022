@@ -7,12 +7,13 @@ void main() {
 	int a = 0, b = 0, c = 0, d = 0,i;
 	a = ((rand()%9)+1)* ((rand() % 9)+1);
 	scanf_s("%d", &b);
-	for ( i = 0; i <=b; i++)
+	for ( i = 0; i <b; i++)
 	{
 		scanf_s("%d", &c);
 		if (c < 1 || c>100) {
 			printf("범위를 벗어난 숫자이니 다시 한 번 기회를 준다 \n");
-			break;
+			i--;
+			continue;
 		}
 		if (c == a) {
 			printf("이김 \n");
@@ -21,9 +22,9 @@ void main() {
 		}
 		else if (c < a) {
 			printf("up \n");
-			break;
+			
 		}
-		else (c > a); {
+		else {
 			printf("down \n");
 		}
 	}
