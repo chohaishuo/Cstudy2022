@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
+#define SWAP(x, y) { int t; t=x, x=y; y=t;}
 // 필요한 헤더파일들을 include하시오
 
 void mystery(int* a, int* b, int* c, int* d, int* e) {
@@ -12,9 +12,7 @@ void mystery(int* a, int* b, int* c, int* d, int* e) {
 		{
 			if (*p[j] > *p[j + 1])
 			{
-				temp = *p[j];
-				*p[j] = *p[j + 1];
-				*p[j + 1] = temp;
+				SWAP(*p[j], *p[j + 1]);
 			}
 		}
 
